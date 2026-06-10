@@ -5,7 +5,7 @@ const http = require('http');
 const port = process.env.PORT || 8080;
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Log Generator is Running Live!\n');
+    res.end('Log Generator is Running seeing Live!\n');
 });
 
 server.listen(port, () => {
